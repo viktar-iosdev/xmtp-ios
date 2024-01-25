@@ -12,7 +12,7 @@
     {
       "identity" : "connect-swift",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/bufbuild/connect-swift",
+      "location" : "https://github.com/viktar-iosdev/connect-swift",
       "state" : {
         "revision" : "6f5afc57f44a3ed15b9a01381ce73f84d15e43db",
         "version" : "0.3.0"
