@@ -7,7 +7,7 @@
 
 import CryptoKit
 import Foundation
-import web3
+import web3w
 
 public let ContentTypeRemoteAttachment = ContentTypeID(authorityID: "xmtp.org", typeID: "remoteStaticAttachment", versionMajor: 1, versionMinor: 0)
 

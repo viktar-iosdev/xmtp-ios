@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 import WalletConnectSwift
-import web3
+import web3w
 import XMTPiOS
 import UIKit
 

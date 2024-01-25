@@ -5,7 +5,7 @@
 //  Created by Pat Nakajima on 11/23/22.
 //
 
-import web3
+import web3w
 import LibXMTP
 
 typealias ContactBundle = Xmtp_MessageContents_ContactBundle

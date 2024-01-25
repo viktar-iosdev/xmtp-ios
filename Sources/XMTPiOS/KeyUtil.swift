@@ -5,7 +5,7 @@
 import Foundation
 import Logging
 import secp256k1
-import web3
+import web3w
 import LibXMTP
 
 enum KeyUtilError: Error {

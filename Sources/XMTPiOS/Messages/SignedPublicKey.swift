@@ -9,7 +9,7 @@ import CryptoKit
 import Foundation
 
 import LibXMTP
-import web3
+import web3w
 
 typealias SignedPublicKey = Xmtp_MessageContents_SignedPublicKey
 

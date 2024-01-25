@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import web3
+import web3w
 
 enum Util {
 	static func keccak256(_ data: Data) -> Data {

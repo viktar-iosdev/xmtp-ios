@@ -7,7 +7,7 @@
 
 import Foundation
 import secp256k1
-import web3
+import web3w
 import XCTest
 import LibXMTP
 @testable import XMTPiOS
