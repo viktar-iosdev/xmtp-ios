@@ -21,7 +21,8 @@ let package = Package(
 		// Dependencies declare other packages that this package depends on.
 		// .package(url: /* package url */, from: "1.0.0"),
 
-		.package(url: "https://github.com/GigaBitcoin/secp256k1.swift.git", exact: "0.10.0"),
+		//.package(url: "https://github.com/viktar-iosdev/secp256k1", from: "0.10.0"),
+        .package(url: "https://github.com/Boilertalk/secp256k1.swift.git", from: "0.1.1"),
 		.package(url: "https://github.com/viktar-iosdev/swiftWeb3", from: "1.1.0"),
 		.package(url: "https://github.com/1024jp/GzipSwift", from: "5.2.0"),
 		.package(url: "https://github.com/bufbuild/connect-swift", exact: "0.3.0"),
@@ -36,7 +37,9 @@ let package = Package(
 			name: "XMTPiOS",
 			dependencies: [
 				.product(name: "secp256k1", package: "secp256k1.swift"),
-				"web3.swift",
+                //.product(name: "secp256k1", package: "secp256k1"),
+                //"secp256k1",
+                .product(name: "web3.swift", package: "swiftWeb3"),
 				.product(name: "Gzip", package: "GzipSwift"),
 				.product(name: "Connect", package: "connect-swift"),
 				.product(name: "LibXMTP", package: "libxmtp-swift"),

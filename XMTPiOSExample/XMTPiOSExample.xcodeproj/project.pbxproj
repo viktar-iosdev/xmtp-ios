@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6AEE396E29F330CD0027B657 /* secp256k1 in Frameworks */ = {isa = PBXBuildFile; productRef = 6AEE396D29F330CD0027B657 /* secp256k1 */; };
 		A60FC8BF293AD054001697E3 /* MessageComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60FC8BE293AD054001697E3 /* MessageComposerView.swift */; };
 		A60FC8C1293AD171001697E3 /* ConversationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60FC8C0293AD171001697E3 /* ConversationDetailView.swift */; };
 		A60FC8C3293AD18A001697E3 /* PreviewClientProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60FC8C2293AD18A001697E3 /* PreviewClientProvider.swift */; };
@@ -103,7 +102,6 @@
 				A65F0707297B5E7600C3C76E /* WalletConnectSwift in Frameworks */,
 				A6C0F3802AC1E34F008C6AA7 /* WalletConnectModal in Frameworks */,
 				A6606A1A2B5EE80000E2ED4D /* XMTPiOS in Frameworks */,
-				6AEE396E29F330CD0027B657 /* secp256k1 in Frameworks */,
 				A6C0F37E2AC1E34F008C6AA7 /* WalletConnect in Frameworks */,
 				A6C0F3822AC1E34F008C6AA7 /* Web3Wallet in Frameworks */,
 				A6C0F37B2AC1E321008C6AA7 /* Starscream in Frameworks */,
@@ -240,7 +238,6 @@
 			packageProductDependencies = (
 				A65F0706297B5E7600C3C76E /* WalletConnectSwift */,
 				A65F0709297B5E8600C3C76E /* KeychainAccess */,
-				6AEE396D29F330CD0027B657 /* secp256k1 */,
 				A6C0F37A2AC1E321008C6AA7 /* Starscream */,
 				A6C0F37D2AC1E34F008C6AA7 /* WalletConnect */,
 				A6C0F37F2AC1E34F008C6AA7 /* WalletConnectModal */,
@@ -302,7 +299,6 @@
 			packageReferences = (
 				A65F0705297B5E7500C3C76E /* XCRemoteSwiftPackageReference "WalletConnectSwift" */,
 				A65F0708297B5E8600C3C76E /* XCRemoteSwiftPackageReference "KeychainAccess" */,
-				6AEE396C29F330CD0027B657 /* XCRemoteSwiftPackageReference "secp256k1.swift" */,
 				A6C0F3792AC1E321008C6AA7 /* XCRemoteSwiftPackageReference "Starscream" */,
 				A6C0F37C2AC1E34F008C6AA7 /* XCRemoteSwiftPackageReference "WalletConnectSwiftV2" */,
 			);
@@ -661,14 +657,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6AEE396C29F330CD0027B657 /* XCRemoteSwiftPackageReference "secp256k1.swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/GigaBitcoin/secp256k1.swift.git";
-			requirement = {
-				kind = exactVersion;
-				version = 0.10.0;
-			};
-		};
 		A65F0705297B5E7500C3C76E /* XCRemoteSwiftPackageReference "WalletConnectSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/WalletConnect/WalletConnectSwift";
@@ -704,11 +692,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6AEE396D29F330CD0027B657 /* secp256k1 */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6AEE396C29F330CD0027B657 /* XCRemoteSwiftPackageReference "secp256k1.swift" */;
-			productName = secp256k1;
-		};
 		A65F0706297B5E7600C3C76E /* WalletConnectSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A65F0705297B5E7500C3C76E /* XCRemoteSwiftPackageReference "WalletConnectSwift" */;
